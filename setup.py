@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
 	name='pysitemap',
-	version=0.3,
+	version=0.4,
 	description='A Python library for generating sitemap',
 	long_description=open('README.rst').read(),
 	classifiers = [

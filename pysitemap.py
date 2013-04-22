@@ -10,8 +10,7 @@ class SiteMap(object):
 		self.timezone = kwargs.get('timezone', 'Z')
 		domain = kwargs.get('domain', None)
 		self._out = [
-			'<?xml version="1.0" encoding="UTF-8"?>', 
-			'<?xml-stylesheet type="text/xsl" href="http://vitalvas.github.io/xml/pysitemap.xsl"?>',
+			'<?xml version="1.0" encoding="UTF-8"?>',
 			'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
 		]
 		if domain:
