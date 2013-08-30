@@ -1,7 +1,7 @@
 PySitemap
 =========
 
-A Python library for generating sitemap
+A Python library for generating a sitemap
 
 
 
@@ -34,7 +34,7 @@ How to use? ::
 		lastmod=datetime.now(), 
 		changefreq='weekly')
 
-	print feed.to_string()
+	print site.to_string()
 
 
 Reporting Bugs
